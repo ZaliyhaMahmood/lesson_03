@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Builder</title>
+  </head>
+  <body>
+          <h3>Pizza Builder</h3>
+
+          <form id="new-pizza" form method=get action="submitform">
+            <div class="form-group">
+              <h5>Choose a size
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size-options" id="extra-small" value="extra-small">
+                    Extra-small (8")
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size-options" id="small" value="small">
+                    Small (10")
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size-options" id="medium" value="medium" checked>
+                    Medium (12")
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size-options" id="large" value="large">
+                    Large (14")
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size-options" id="extra-large" value="extra-large">
+                    Extra-large (16")
+                  </label>
+                </div>
+
+
+            <hr>
+            <div class="form-group">
+              <h5>Choose your cheese preference
+
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="cheese-options" id="none" value="none">
+                    No cheese
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="cheese-options" id="regular" value="regular" checked>
+                    Regular cheese
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="cheese-options" id="extra" value="extra">
+                    Extra cheese
+                  </label>
+                </div>
+
+            </div>
+        
+            <button type="submit" class="btn btn-success btn-sm">Add your pizza to the cart</button>
+               
+          </form>
+
+  </body>
+</html>
